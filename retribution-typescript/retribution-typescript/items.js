@@ -22,6 +22,7 @@ var Armor = (function (_super) {
     }
     return Armor;
 })(Item);
+exports.Armor = Armor;
 var Weapon = (function (_super) {
     __extends(Weapon, _super);
     function Weapon(name, durability, material, bonus, damage, oneHanded) {
@@ -31,10 +32,5 @@ var Weapon = (function (_super) {
     }
     return Weapon;
 })(Item);
-var SwordOfDoom = new Weapon("Sword of Doom", 10, "Steel", 0, 10, true);
-var PikeOfPain = new Weapon("Pike of Pain", 5, "Adamantium", 5, 11, false);
-var CircletOfHealing = new Armor("Circlet of Healing", 4, "Mithril", 1, "Head");
-console.log(SwordOfDoom);
-console.log(PikeOfPain);
-console.log(CircletOfHealing);
+exports.Weapon = Weapon;
 //# sourceMappingURL=items.js.map
