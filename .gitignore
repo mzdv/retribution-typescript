@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.sln
+/retribution-typescript/retribution-typescript/node_modules/.bin
+/retribution-typescript/retribution-typescript/node_modules
+/retribution-typescript/retribution-typescript/obj/Debug
+*.dat
+*.map
+*.njsproj
