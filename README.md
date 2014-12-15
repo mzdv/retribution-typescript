@@ -1,4 +1,3 @@
 retribution-typescript
 ======================
-
-Retribution RPG character framework written in Typescript.
+Typescript example code using items from role playing games in Typescript.
